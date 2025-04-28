@@ -1,4 +1,5 @@
 import k from "./kaplayCtx";
+import mainMenu from "./scenes/mainMenu";
 
 k.loadSprite("chemical1-bg", "graphics/chemical1-bg.jpg");
 k.loadSprite("platforms", "graphics/platforms.png");
@@ -32,7 +33,7 @@ k.loadSound("jump", "sounds/jump-15984.mp3");
 k.loadSound("collectcoin", "sounds/collectcoin-6075.mp3");
 k.loadSound("city", "sounds/city-sounds-296780.mp3");
 
-k.scene("main-menu", () => {});
+k.scene("main-menu", mainMenu);
 
 k.scene("game", () => {});
 
