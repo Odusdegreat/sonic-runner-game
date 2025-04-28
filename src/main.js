@@ -25,3 +25,4 @@ k.loadSprite("motobug", "graphics/motobug.png", {
   },
 });
 k.loadFont("mania", "fonts/mania.ttf");
+k.loadSound("rock", "sounds/rock-destroy-6409.mp3");
