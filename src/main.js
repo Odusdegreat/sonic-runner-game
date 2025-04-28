@@ -29,3 +29,13 @@ k.loadSound("rock", "sounds/rock-destroy-6409.mp3");
 k.loadSound("young", "sounds/young-man-being-hurt-95628.mp3");
 k.loadSound("collect", "sounds/collect-ring-15982.mp3");
 k.loadSound("jump", "sounds/jump-15984.mp3");
+k.loadSound("collectcoin", "sounds/collectcoin-6075.mp3");
+k.loadSound("city", "sounds/city-sounds-296780.mp3");
+
+k.scene("main-menu", () => {});
+
+k.scene("game", () => {});
+
+k.scene("gameover", () => {});
+
+k.go("main-menu");
