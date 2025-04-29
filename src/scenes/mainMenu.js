@@ -14,4 +14,10 @@ export default function mainMenu() {
       k.opacity(0.8),
     ]),
   ];
+
+  const platformWidth = 1280;
+  const platform = [
+    k.add([k.sprite("platform"), k.pos(0, 450), k.scale(4)]),
+    k.add([k.sprite("platform"), k.pos(0, 450), k.scale(4)]),
+  ];
 }

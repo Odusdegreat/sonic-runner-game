@@ -2,7 +2,7 @@ import k from "./kaplayCtx";
 import mainMenu from "./scenes/mainMenu";
 
 k.loadSprite("chemical1-bg", "graphics/chemical1-bg.jpg");
-k.loadSprite("platforms", "graphics/platforms.png");
+k.loadSprite("platform", "graphics/platform.png");
 k.loadSprite("sonic", "graphics/sonic.png", {
   sliceX: 8,
   sliceY: 2,
